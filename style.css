@@ -1,0 +1,19 @@
+ * {
+    box-sizing: border-box;
+ }
+
+ .box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+   transition: all ease-in-out .3s;
+ }
+
+ .box:hover {
+    transform: translateY(5px)
+ }
+
